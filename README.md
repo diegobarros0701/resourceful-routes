@@ -44,7 +44,7 @@ Will mount the following routes:
 
 ## Methods
 
-### Constructor
+### # Constructor
 
 ### constructor(router, options = {})
 
@@ -55,7 +55,7 @@ The initial setup for the package
 | Param | Description |
 | -- | -- |
 | `router` | The express [router object](https://expressjs.com/pt-br/4x/api.html#router) |
-| `options` | [setup options object](#options) `
+| `options` | [constructor options object](#constructor-options)
 
 ### # constructor options
 
@@ -63,7 +63,7 @@ The initial setup for the package
 | -- | -- | -- |
 | `debug` | Boolean | If set to true the `/route/info` route will be created to list all your available routes |
 
-### Resource
+### # Resource
 
 ### resource(path, controller, options = {})
 
