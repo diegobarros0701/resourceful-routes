@@ -1,0 +1,9 @@
+{
+  "name": "resourceful-routes",
+  "version": "1.0.0",
+  "description": "A effortlessly Node.js package to generate resourceful routes",
+  "main": "index.js",
+  "repository": "git@github.com:diegobarros0701/resourceful-routes.git",
+  "author": "Diego Barros <diegobarros2812@gmail.com>",
+  "license": "MIT"
+}
