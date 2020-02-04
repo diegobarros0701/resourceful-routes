@@ -33,12 +33,6 @@ router.resource('contacts', ContactsController, {
 })
 ```
 
-## Methods
-
-### Constructor
-
-### constructor(router, options = {})
-
 Will mount the following routes:
 
 | Route | Method |
@@ -47,6 +41,14 @@ Will mount the following routes:
 | `/users` | `post` |
 | `/users/:id` | `put and patch` |
 | `/contacts/:contact_id` | `get` |
+
+## Methods
+
+### Constructor
+
+### constructor(router, options = {})
+
+The initial setup for the package
 
 ### # constructor params
 
@@ -72,7 +74,7 @@ Mount all the following routes, if not specified different in `options`
 | `/path` | `get` |
 | `/path` | `post` |
 | `/path/:id` | `get` |
-| `/path/:id` | `put and patch` |
+| `/path/:id` | `put` `patch` |
 | `/path/:id` | `destroy` |
 
 ### # resource params
