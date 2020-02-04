@@ -33,7 +33,11 @@ router.resource('contacts', ContactsController, {
 })
 ```
 
-## setup(router, options = {})
+## Methods
+
+### Constructor
+
+### constructor(router, options = {})
 
 Will mount the following routes:
 
@@ -44,20 +48,20 @@ Will mount the following routes:
 | `/users/:id` | `put and patch` |
 | `/contacts/:contact_id` | `get` |
 
-### # setup params
+### # constructor params
 
 | Param | Description |
 | -- | -- |
 | `router` | The express [router object](https://expressjs.com/pt-br/4x/api.html#router) |
 | `options` | [setup options object](#options) `
 
-### # setup options
+### # constructor options
 
 | Option | Type | Description |
 | -- | -- | -- |
 | debug | Boolean | If set to true the `/route/info` route will be created to list all your available routes |
 
-## Methods
+### Resource
 
 ### resource(path, controller, options = {})
 
