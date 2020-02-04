@@ -24,10 +24,13 @@ Example:
 const router = require('express').Router();
 require('resourceful-routes')(router, { debug: true });
 ```
+## Parameters
+
+* The first parameters is the the express [router object](https://expressjs.com/pt-br/4x/api.html#router)
+* The second parameter is an [options object](#options)
 
 ## Options
 
 | Option | Type | Description |
 | -- | -- | -- |
-| router | [Router object](https://expressjs.com/pt-br/4x/api.html#router) | The express router object |  
 | debug | Boolean | If set to true the `/route/info` route will be created to list all your available routes |
