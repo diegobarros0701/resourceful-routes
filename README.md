@@ -61,7 +61,7 @@ The initial setup for the package
 
 | Option | Type | Description |
 | -- | -- | -- |
-| debug | Boolean | If set to true the `/route/info` route will be created to list all your available routes |
+| `debug` | Boolean | If set to true the `/route/info` route will be created to list all your available routes |
 
 ### Resource
 
@@ -79,11 +79,11 @@ Mount all the following routes, if not specified different in `options`
 
 ### # resource params
 
-| Param | Description |
-| -- | -- |
-| `path` | The path name to be mounted |
-| `controller` | The object containing the functions |
-| `options` | The [options object](#resource-options)
+| Param | Type | Description |
+| -- | -- | -- |
+| `path` | `string` | The path name to be mounted |
+| `controller` | `object` | The object containing the functions |
+| `options` | `object` | The [options object](#resource-options)
 
 ### # resource options
 
