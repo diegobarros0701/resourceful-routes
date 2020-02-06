@@ -12,7 +12,7 @@ function setup(router, options = {}) {
       let routesInfo = [];
       router.stack.forEach(stack => {
         stack.route.stack.forEach(routePathStack => {
-          routesInfo.push('path: ' + stack.route.path + ' | to: ' + routePathStack.name + ' | method: ' + routePathStack.method);
+          routesInfo.push('path: ' + stack.route.path + ' | to: ' + routePathStack.name + ' | method: ' + routePathStack.method.toUpperCase());
           // routesInfo.push({
           //   path: stack.route.path,
           //   to: routePathStack.name,
