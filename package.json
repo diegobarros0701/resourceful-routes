@@ -1,6 +1,6 @@
 {
   "name": "resourceful-routes",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A effortlessly express package to generate resourceful routes",
   "main": "index.js",
   "author": {
